@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="132dp"
+              android:background="@drawable/mo_dialogs_bg"
+              android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/shortcut_rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:button="@null"
+        android:background="@drawable/mo_shortcut_menu_selector"
+        android:drawableLeft="@drawable/mo_image_switch"
+        android:drawablePadding="10dp"
+        android:padding="8dp"
+        android:text="切换形象"
+        android:textColor="#0a0a0a"
+        android:textSize="16sp"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:background="#26000000"/>
+    <RadioButton
+        android:id="@+id/shortcut_rb2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:button="@null"
+        android:background="@drawable/mo_shortcut_menu_selector"
+        android:drawableLeft="@drawable/mo_geek_wify_no"
+        android:drawablePadding="10dp"
+        android:padding="8dp"
+        android:text="场景"
+        android:textColor="#0a0a0a"
+        android:textSize="16sp"/>
+    <View android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:background="#26000000"/>
+    <RadioButton
+        android:id="@+id/shortcut_rb3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:button="@null"
+        android:background="@drawable/mo_shortcut_menu_selector"
+        android:drawableLeft="@drawable/mo_help"
+        android:drawablePadding="10dp"
+        android:padding="8dp"
+        android:text="帮助"
+        android:textColor="#0a0a0a"
+        android:textSize="16sp"/>
+</LinearLayout>
